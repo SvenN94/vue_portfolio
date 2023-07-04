@@ -1,20 +1,22 @@
 <template>
   <AboutPage />  
   <skillOverview />
+  <projectOverview />
   
 </template>
 
 <script>
 import AboutPage from './sections/aboutPage.vue'
-import skillOverview from './sections/skillOverview.vue';
+import skillOverview from './sections/skillOverview.vue'
+import projectOverview from './sections/projectOverview.vue'
 
 
 export default {
   name: 'App',
   components: {
     AboutPage,    
-    skillOverview
-
+    skillOverview,
+    projectOverview
   }
 }
 </script>
