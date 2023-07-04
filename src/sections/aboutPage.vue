@@ -48,7 +48,7 @@
            identity and business objectives. My mission is to 
            equip you with the tools, knowledge, and confidence 
            needed to thrive in the digital era.
-</p>
+          </p>
         </div>
   </div> 
   

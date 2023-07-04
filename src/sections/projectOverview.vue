@@ -1,13 +1,15 @@
-<template>
-   
+<template> 
+  <div class="project-container" > 
     <h1>projectOverview</h1>
-  <div class="project-container" >       
+    <div class="projectCards">          
         <div class="fetchcards" v-for="project in result" :key="project.id">
             <projectCard :title="project.name"
         :about="project.description"        
         :link1="project.html_url"
+        :link2="project.language"
         />
         </div>
+    </div>
   </div>
 </template>
 
@@ -35,5 +37,17 @@ export default {
 </script>
 
 <style>
+.project-container{    
+    background-color: brown;  
+    padding: 2.5%; 
+}
+.projectCards{    
+    display: flex;    
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;       
+}  
+
 
 </style>
