@@ -77,13 +77,12 @@ export default {
   }
   .main-container{
     display: flex;
-    flex-direction: row;
-    background-color: aliceblue;
+    flex-direction: row;  
+    min-height: 100dvh;  
   }
   .container-one{
     width: 30%;   
-    padding: 2.5%; 
-    background-color: beige;
+    padding: 2.5%;     
   }
   .profile img{
     height: 5rem;
@@ -98,8 +97,7 @@ export default {
     height: 3rem;
   }
   .container-two{
-    width: 70%;
-    background-color: aquamarine;
+    width: 70%;    
     margin: 2.5%;
   }
   .about-me{

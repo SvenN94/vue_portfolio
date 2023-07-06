@@ -42,6 +42,7 @@ export default {
 .project-container{    
     background-color: brown;  
     padding: 2.5%; 
+    min-height: 100dvh;
 }
 .projectCards{    
     display: flex;    

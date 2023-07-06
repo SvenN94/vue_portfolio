@@ -1,12 +1,12 @@
 <template> 
-  <v-card class="">    
+  <v-card >    
     <v-img :src="require('../assets/Profile_avatar_placeholder_large.png')"
     height="5rem"
     :aspect-ratio="1">
     </v-img>
     <v-card-title>{{title}}</v-card-title>
-    <p>{{about}}</p>
-    <p>{{ link2 }}</p>
+    <v-card-text>{{about}}</v-card-text>
+    <v-card-subtitle>{{ link2 }}</v-card-subtitle>
     <a href="{{ link1 }}">
       <button>github Link</button></a>
     
