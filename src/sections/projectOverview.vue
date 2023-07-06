@@ -1,14 +1,15 @@
 <template> 
   <div class="project-container" > 
     <h1>projectOverview</h1>
-    <div class="projectCards">          
-        <div class="fetchcards" v-for="project in result" :key="project.id">
-            <projectCard :title="project.name"
+    <div class="projectCards"> 
+        <projectCard class="fetchcards" v-for="project in repos" 
+        :key="project.id" 
+        :title="project.name"
         :about="project.description"        
         :link1="project.html_url"
         :link2="project.language"
         />
-        </div>
+        
     </div>
   </div>
 </template>
@@ -18,8 +19,8 @@ import projectCard from '@/components/projectCard.vue'
 
 export default {
     data(){
-    return{        
-        result: [],
+    return{
+        repos: [],
         repo: {id:Number,title:String,about:String, html_url:String, language:String}
     }
    },
@@ -27,12 +28,13 @@ export default {
     fetch('https://api.github.com/users/SvenN94/repos')
             .then((response) => response.json())
             .then((proj) => {
-                this.result = proj;
-            });
+                this.repos = proj.filter((obj) => {
+                    return obj.name !== "SvenN94";
+                })})
    },
     components:{
         projectCard
-    },
+    },     
 }
 </script>
 

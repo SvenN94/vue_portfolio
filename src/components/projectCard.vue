@@ -1,15 +1,17 @@
 <template> 
-  <div class="product-card">    
-    <img src="..\assets\Profile_avatar_placeholder_large.png" alt="">
-    <div class="text">
-    <h3>{{title}}</h3>
+  <v-card class="">    
+    <v-img :src="require('../assets/Profile_avatar_placeholder_large.png')"
+    height="5rem"
+    :aspect-ratio="1">
+    </v-img>
+    <v-card-title>{{title}}</v-card-title>
     <p>{{about}}</p>
     <p>{{ link2 }}</p>
     <a href="{{ link1 }}">
       <button>github Link</button></a>
     
-  </div>
-  </div>
+  
+  </v-card>
 </template>
 
 <script>
@@ -30,23 +32,6 @@ export default {
 }
 </script>
 
-<style>
- .product-card{
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(95, 160, 117);
-  margin: 10px;    
-  align-items: center; 
-  
- 
- }
- .product-card img{
-  height: 5rem;
- }
- .text{
-  display: flex;    
-  background-color: rgb(189, 125, 125);  
-  padding: 1%; 
-  align-items: center;   
- }
+<style> 
+
 </style>
