@@ -1,8 +1,15 @@
 <template>
-  <AboutPage />  
-  <skillOverview />
-  <projectOverview />
-  
+  <v-app >
+    <v-content>
+    <AboutPage />  
+  </v-content>
+  <v-content>
+    <skillOverview />
+  </v-content>
+  <v-content>
+    <projectOverview />
+  </v-content>
+  </v-app>
 </template>
 
 <script>
@@ -22,12 +29,4 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #000000;  
-  background-color: #006D5B;  
-}
 </style>

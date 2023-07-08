@@ -1,8 +1,8 @@
 <template> 
-  <div class="project-container" > 
+  <div class="v-container" > 
     <h1>projectOverview</h1>
     <div class="projectCards"> 
-        <projectCard class="fetchcards" v-for="project in repos" 
+        <projectCard class="v-card" v-for="project in repos" 
         :key="project.id" 
         :title="project.name"
         :about="project.description"        
@@ -39,18 +39,7 @@ export default {
 </script>
 
 <style>
-.project-container{    
-    background-color: brown;  
-    padding: 2.5%; 
-    min-height: 100dvh;
-}
-.projectCards{    
-    display: flex;    
-    background-color: aqua;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;       
-}  
+ 
 
 
 </style>

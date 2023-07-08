@@ -1,38 +1,53 @@
 <template>
-  <div class="main-container">
-   <div class="container-one">
-    <div class="profile">
-      <img src="..\assets\Profile_avatar_placeholder_large.png" alt="">
-      <h3>Sven Nelles</h3>
-      <p>Full-stack developer</p>
-    </div>
-    <div class="social-links">      
-        <div class="link">          
-          <a href="">
-            <img src="..\assets\github-mark.png" alt="">
-            <h2>Github</h2>
-          </a>
-        </div>
-        <div class="link">          
-          <a href="">
-            <img src="..\assets\LI-In-Bug.png" alt="">
-            <h2>LinkedIn</h2></a>              
-        </div>     
-    </div>
-  </div>
-  <div class="container-two">
-    <div class="about-me">
-      <h1>About me</h1>
-      <p>A few years back, i got curious about the possibilities of 
+  <v-container id="main" class="d-flex flex-row h-100 mb-7 ">   
+    <v-container class="d-flex flex-column ">
+        <v-container id="persinfo" class="d-flex flex-column " >
+          <v-avatar size="x-large">
+          <v-img 
+          :src="require('../assets/Profile_avatar_placeholder_large.png')"
+          height="5rem"
+          :aspect-ratio="1">
+        </v-img>
+      </v-avatar>
+          <h3 class="mt-1">Sven Nelles</h3>
+          <p>Full-stack developer</p>
+        </v-container>      
+      <v-container class="d-flex flex-row ">
+            <a href="https://github.com/SvenN94" ><v-icon
+              start
+            size="large"
+            icon="fa-brands fa-github" 
+            color="white" 
+            >
+            </v-icon></a>
+            <a href="https://www.linkedin.com/in/svennelles/" ><v-icon
+             start
+            icon="fa-brands fa-linkedin" 
+            color="white" 
+            size="large"
+             ></v-icon>                          
+          </a>              
+             
+      </v-container>
+    </v-container>
+  <v-container class="w-100 h-100" >
+    <v-card class=""
+    color="transparent"
+    elevation="0"
+    >
+      <v-card-title>About me</v-card-title>
+        <v-card-text class="text-body-1">A few years back, i got curious about the possibilities of 
         technology and decided to try some DIY projects. Fast forward
          to today, and i'm still very much engaged in RPI projects,
-          AI automation, web development .</p>
-        <p>My main focus these days is helping people with 
+          AI automation, web development .
+        </v-card-text>
+        <v-card-text class="text-body-1">My main focus these days is helping people with 
           online presence and providing digital tools and assests.
            I believe that by leveraging the digital landscape, 
            you can unlock countless opportunities for growth and
-            success.</p>
-        <p>What sets me apart is my unwavering commitment to 
+            success.
+          </v-card-text>
+        <v-card-text class="text-body-1">What sets me apart is my unwavering commitment to 
           providing exceptional value. I go beyond just designing 
           websites; i strive to educate and support you throughout 
           your digital journey. I'm always ready to answer 
@@ -48,11 +63,10 @@
            identity and business objectives. My mission is to 
            equip you with the tools, knowledge, and confidence 
            needed to thrive in the digital era.
-          </p>
-        </div>
-  </div> 
-  
-  </div>
+          </v-card-text>
+        </v-card>
+  </v-container>   
+  </v-container>
 </template>
 
 <script>
@@ -72,36 +86,5 @@ export default {
 </script>
 
 <style scoped>
-  img{
-    height: 20px;
-  }
-  .main-container{
-    display: flex;
-    flex-direction: row;  
-    min-height: 100dvh;  
-  }
-  .container-one{
-    width: 30%;   
-    padding: 2.5%;     
-  }
-  .profile img{
-    height: 5rem;
-    border-radius: 50%;
-  }
-  .link a{
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-  }
-  .link img{
-    height: 3rem;
-  }
-  .container-two{
-    width: 70%;    
-    margin: 2.5%;
-  }
-  .about-me{
-    text-align: left;
-  }
-  
+ 
 </style>
