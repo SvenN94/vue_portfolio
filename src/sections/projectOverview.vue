@@ -1,8 +1,8 @@
 <template> 
-  <div class="v-container" > 
+  <v-container class="d-flex-column h-screen" > 
     <h1>projectOverview</h1>
-    <div class="projectCards"> 
-        <projectCard class="v-card" v-for="project in repos" 
+    <v-container class="d-flex flex-column-wrap h-auto w-100 justify-center align-center"> 
+        <projectCard class="" v-for="project in repos" 
         :key="project.id" 
         :title="project.name"
         :about="project.description"        
@@ -10,8 +10,8 @@
         :link2="project.language"
         />
         
-    </div>
-  </div>
+    </v-container>
+  </v-container>
 </template>
 
 <script>

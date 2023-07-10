@@ -10,6 +10,8 @@ import * as directives from 'vuetify/directives'
 import {  mdi } from 'vuetify/iconsets/mdi'
 import { aliases, fa } from 'vuetify/iconsets/fa'
 
+
+
 const myCustomTheme = {
   dark: false,
   colors: {

@@ -1,0 +1,52 @@
+{
+    "C#": {
+      "soort": "Language",
+      "ervaring": "2 Years",
+      "icon": ""
+    },
+    "HTML": {
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      },
+      "CSS": {
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      },
+      "JavaScript": {
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      },
+      "SQL": {
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      },
+      "Vue.js": {
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      },
+      "API": {
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      },
+      "Blazor": {
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      },
+      "MAUI": {
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      },
+      "": {
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      }
+  }

@@ -1,5 +1,5 @@
 <template>
-  <v-container id="main" class="d-flex flex-row h-100 mb-7 ">   
+  <v-container id="main" class="d-flex flex-row h-screen  ">   
     <v-container class="d-flex flex-column ">
         <v-container id="persinfo" class="d-flex flex-column " >
           <v-avatar size="x-large">
@@ -47,23 +47,7 @@
            you can unlock countless opportunities for growth and
             success.
           </v-card-text>
-        <v-card-text class="text-body-1">What sets me apart is my unwavering commitment to 
-          providing exceptional value. I go beyond just designing 
-          websites; i strive to educate and support you throughout 
-          your digital journey. I'm always ready to answer 
-          any questions you may have about the online world. 
-          Whether it's clarifying technical concepts, suggesting 
-          strategies for digital marketing, or addressing any other
-           concerns, I'm here to ensure that you have a 
-           comprehensive understanding of the digital landscape. 
-           With a focus on businesses, i understand the unique 
-           challenges and needs you face. I tailor my services 
-           to cater to your specific requirements, ensuring 
-           that your digital presence aligns with your brand 
-           identity and business objectives. My mission is to 
-           equip you with the tools, knowledge, and confidence 
-           needed to thrive in the digital era.
-          </v-card-text>
+        
         </v-card>
   </v-container>   
   </v-container>
