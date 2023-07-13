@@ -1,52 +1,36 @@
 {
-    "C#": {
-      "soort": "Language",
-      "ervaring": "2 Years",
-      "icon": ""
-    },
-    "HTML": {
+  "Skills": [{
+    "Frontend" : [
+      {
+        "name": "HTML",
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      },{
+        "name": "CSS",
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      },{
+        "name" :"JavaScript",
+        "soort": "",
+        "ervaring": "",
+        "icon": ""
+      },{
+       "name":"Bootstrap",
         "soort": "",
         "ervaring": "",
         "icon": ""
       },
-      "CSS": {
+      { "name": "Vue.js",
         "soort": "",
         "ervaring": "",
         "icon": ""
       },
-      "JavaScript": {
-        "soort": "",
-        "ervaring": "",
-        "icon": ""
-      },
-      "SQL": {
-        "soort": "",
-        "ervaring": "",
-        "icon": ""
-      },
-      "Vue.js": {
-        "soort": "",
-        "ervaring": "",
-        "icon": ""
-      },
-      "API": {
-        "soort": "",
-        "ervaring": "",
-        "icon": ""
-      },
-      "Blazor": {
-        "soort": "",
-        "ervaring": "",
-        "icon": ""
-      },
-      "MAUI": {
-        "soort": "",
-        "ervaring": "",
-        "icon": ""
-      },
-      "": {
+      { "name":"Vuetify",
         "soort": "",
         "ervaring": "",
         "icon": ""
       }
-  }
+    ]  
+}]}

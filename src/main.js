@@ -15,7 +15,7 @@ import { aliases, fa } from 'vuetify/iconsets/fa'
 const myCustomTheme = {
   dark: false,
   colors: {
-    background: '#006D5B',    
+    background: '#0E2925',    
     primary: '#00486D',    
     secondary: '#006D25',      
   },

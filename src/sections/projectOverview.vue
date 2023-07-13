@@ -1,5 +1,5 @@
 <template> 
-  <v-container class="d-flex-column h-screen" > 
+  <v-container class="d-flex-column h-screen mt-6" > 
     <h1>projectOverview</h1>
     <v-container class="d-flex flex-column-wrap h-auto w-100 justify-center align-center"> 
         <projectCard class="" v-for="project in repos" 
